@@ -54,10 +54,11 @@ ul {
 
 footer div img {
   max-width: 100px;
-  padding-top: 30%; 
+  padding-top: 45%;
 }
 
 .logo img {
+  max-width: 90px;
   max-height: 40px;
   margin-right: auto;
 }
@@ -98,27 +99,7 @@ li {
 
 #main h1 {
   font-family: 'Lato', sans-serif;
-  font-size: 25px;
-  font-weight: 400;
-  color: #ec5242;
-}
-
-#main h2 {
-  font-family: 'Lato', sans-serif;
-  font-size: 25px;
-  font-weight: 400;
-  color: #ec5242;
-  padding-left: 0;
-}
-
-#about-main h1,
-h2,
-p {
-  padding: 3% 15%;
-}
-
-#about-main h1 {
-  font-family: 'Cocogoose', sans-serif;
+  font-size: 35px;
   font-weight: 400;
   color: #ec5242;
 }
@@ -128,12 +109,14 @@ p {
   font-family: 'Lato', sans-serif;
   color: #fff;
   padding: 5% 1%;
+  margin-right: 0%;
 }
 
 .past-summit-card h2 {
   position: absolute;
   top: 40px;
-  left: 20%;
+  text-align: center;
+  padding-left: 35%;
   color: white;
 }
 
@@ -145,37 +128,13 @@ p {
   padding: 1% 0;
 }
 
-#about-main h2 {
-  font-family: 'Cocogoose', sans-serif;
-  font-size: 55px;
-  font-weight: 800;
-  color: #ec5242;
-}
-
 #main h2 {
   font-family: 'Cocogoose', sans-serif;
   font-size: 55px;
   font-weight: 800;
+  text-align: left;
   color: #ec5242;
-}
-
-#introduction {
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #272a31;
-  background-color: #fff;
-  border: 3px solid #d3d3d3;
-  padding-right: 15%;
-  padding-left: 2%;
- }
-
-#main h3 {
-  font-family: 'Cocogoose', sans-serif;
-  font-size: 25px;
-  font-weight: 700;
-  color: #272a31;
-  padding-left: 0%;
+  padding-left: 0;
 }
 
 .program-cards p {
@@ -187,8 +146,8 @@ p {
 
 .past-summit-card p {
   position: absolute;
-  top: 70px;
-  left: 9%;
+  top: 80px;
+  left: 10%;
   color: white;
 }
 
@@ -208,12 +167,67 @@ p {
   padding: 5%;
 }
 
+#logo-reveal p {
+  padding: 5% 12%;
+}
+
+#past-summits p {
+  padding: 2% 12%;
+}
+
+#about-main h1 h2 p {
+  padding: 3% 21%;
+}
+
+#about-main h1 {
+  font-family: 'Cocogoose', sans-serif;
+  font-weight: 400;
+  color: #ec5242;
+}
+
+#programs h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding-top: 3%;
+  font-weight: 400;
+  text-align: center;
+  color: #e6342d;
+}
+
+#about-main h2 {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  color: #ec5242;
+}
+
+#introduction {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #272a31;
+  background-color: rgba(255, 255, 255, 0.911);
+  border: 3px solid #d3d3d3;
+  padding-top: 2%;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-bottom: 2%;
+}
+
+#main h3 {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #272a31;
+  padding-left: 0%;
+}
+
 #programs {
   background-color: #262930;
   background-image: url(images/background/repeat-bg.png);
   justify-content: center;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
   padding-bottom: 0;
 }
 
@@ -222,7 +236,7 @@ p {
   font-size: 20px;
   font-weight: 400;
   text-align: center;
-  color: #fff;
+  color: #ec5242;
   padding: 2%;
 }
 
@@ -239,9 +253,8 @@ p {
   justify-content: space-between;
   border: 1px #414248 solid;
   background: #414248;
-  margin: 3% 2.5%;
-  padding-left: 1%;
-  padding-right: 1%;
+  margin: 3% 0%;
+  padding-right: 4%;
 }
 
 .program-cards:hover {
@@ -264,7 +277,7 @@ p {
   border-style: solid;
   border-color: #ec5242;
   border-radius: 5px;
-  padding: 5% 20%;
+  padding: 3% 25%;
   margin: 1% 10%;
 }
 
@@ -287,12 +300,14 @@ p {
 }
 
 #speakers h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  margin-left: 0%;
+  font-weight: 400;
   text-align: left;
-  padding: 2%;
-  padding-top: 0;
-  padding-bottom: 8%;
+  color: #ec5242;
+  padding: 2% 2%;
 }
-
 
 #speakers {
   background-color: #f3f6f8;
@@ -339,7 +354,7 @@ p {
 #about-main {
   font-family: 'Lato', sans-serif;
   padding-bottom: 7%;
-  padding-left: 20%;
+  padding-left: 15%;
   padding-right: 15%;
   text-align: center;
 }
@@ -372,12 +387,8 @@ p {
   padding: 2% 20%;
 }
 
-#logo-reveal p {
-  padding: 5% 12%;
-}
-
 #logo-image {
-  max-width: 300px;
+  max-width: 162px;
   max-height: 250px;
   border: 2px solid #d3d4dc;
   padding: 2% 7%;
@@ -400,17 +411,13 @@ p {
   padding: 2% 20%;
 }
 
-#past-summits p {
-  padding: 2% 12%;
-}
-
 .past-summit-card {
   padding: 2% 0;
-  position: relative; 
+  position: relative;
 }
 
 .past-summit-card img {
-  max-width:250px;
+  max-width: 250px;
   filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
 }
 
@@ -454,7 +461,7 @@ footer {
   padding-left: 25%;
   padding-right: 20%;
   align-items: center;
-  padding-bottom: 3%;
+  padding-bottom: 6%;
   gap: 6%;
 }
 
@@ -463,6 +470,7 @@ footer {
   font-family: 'Lato', sans-serif;
   font-size: 10px;
   font-weight: 300;
+  padding-top: 5%;
 }
 
 /* mobile version section */
@@ -555,13 +563,21 @@ footer {
     margin: 2% 5%;
   }
 
-    #main h3 {
+  #main h3 {
     font-family: 'Cocogoose', sans-serif;
     font-size: 25px;
     font-weight: 700;
     color: #272a31;
     padding-left: 0%;
     padding-top: 5%;
+  }
+
+  .program-cards h2 {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: #ec5242;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   #main h2 {
@@ -571,7 +587,16 @@ footer {
     color: #ec5242;
     padding-left: 0;
   }
-  
+
+  .program-cards p {
+    font-size: 8px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    padding-top: 3%;
+    padding-left: 3%;
+    margin-left: 0%;
+  }
+
   #main p {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -581,8 +606,6 @@ footer {
     border: solid #fff;
     padding: 5%;
   }
-
-
 
   .main-content.active {
     position: fixed;
@@ -612,13 +635,44 @@ footer {
 
   footer div img {
     padding-left: 10px;
-    max-width: 60px;
-    padding-top: 35px;
+    max-width: 50px;
+    max-height: 60px;
   }
 
   .program-cards img {
-    max-width: 30px;
-    max-height: 40px;
+    max-width: 60px;
+    max-height: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #programs h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    color: #ec5242;
+    padding-left: 2%;
+    padding-right: 30%;
+  }
+
+  #programs h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+  }
+
+  .program-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    justify-content: space-between;
+    border: 1px #414248 solid;
+    background: #414248;
+    padding-left: 1%;
+    padding-right: 1%;
   }
 
   main::after {
@@ -651,16 +705,6 @@ footer {
     gap: 5%;
     align-items: inherit;
     margin-left: 0%;
-  }
-
-  .top-speakers div h3 {
-    font-family: 'Lato', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: left;
-    color: #ec5242;
-    padding: 8% 0;
-    padding-left: 3%;
   }
 
   .past-summit-card img {
@@ -719,6 +763,11 @@ footer {
     padding: 3% 5%;
   }
 
+  .program-cards p {
+    padding: 15% 5%;
+    font-size: 10px;
+  }
+
   #introduction p {
     margin-right: 25%;
     background-color: #272a31;
@@ -743,7 +792,7 @@ footer {
   }
 
   #all-programs {
-    padding-top: 2%;
+    padding-top: 7%;
     display: flex;
     flex-direction: row;
   }
@@ -751,13 +800,10 @@ footer {
   .program-cards {
     display: block;
     background: #414248;
-    width: 25%;
+    width: 40%;
+    padding-left: 5%;
     margin: 2% 0.5%;
     text-align: center;
-  }
-
-  .program-cards p {
-    padding: 15% 5%;
   }
 
   #book-button {
@@ -793,12 +839,15 @@ footer {
   footer {
     display: flex;
     flex-direction: row;
-    gap: 45%;
+    align-items: flex-start;
+    align-items: center;
+    padding-bottom: 5%;
+    padding-left: 35%;
   }
 
   #footer-text {
     text-align: left;
-    padding-top: 6%;
+    padding-top: 10%;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -853,6 +902,7 @@ footer {
 
   #about-footer {
     background: #414248;
+    align-items: center;
   }
 
   .black-img {
