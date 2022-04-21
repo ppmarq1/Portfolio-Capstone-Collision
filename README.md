@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-Feel free to check the: [Portfolio-link](https://github.com/ppmarq1/Capstone-1-Collision)
+Feel free to check the: [Portfolio-link](https://ppmarq1.github.io/Portfolio-Capstone-Collision/)
 
 
 ## Video for Documentation 

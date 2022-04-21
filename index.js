@@ -35,7 +35,6 @@ const speakersList = [
   },
 ];
 
-// console.log(speakersList)
 const speakers = document.querySelector('.top-speakers');
 for (let i = 0; i < speakersList.length; i += 1) {
   const el = document.createElement('div');
