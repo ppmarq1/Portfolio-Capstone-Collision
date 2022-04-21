@@ -1,0 +1,800 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato&display=swap');
+
+* {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#back {
+  background-repeat: repeat;
+  position: absolute;
+  opacity: 0.1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: inherit;
+  height: 70px;
+  z-index: 10000;
+}
+
+#social-header {
+  background: #414248;
+  height: 35px;
+  justify-content: flex-end;
+}
+
+a,
+li,
+button {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #272a31;
+}
+
+#social-header .hamb-menu ul li a {
+  color: #fff;
+  font-size: 12px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  padding-left: 10px;
+}
+
+footer div img {
+  padding-left: 20px;
+  max-width: 100px;
+  padding-top: 85px;
+}
+
+.logo img {
+  max-height: 40px;
+  margin-right: auto;
+}
+
+button {
+  color: #ec5242;
+  background: inherit;
+  border-style: double;
+  border-color: #ec5242;
+  border-radius: 1px;
+  padding: 10px 10px;
+  margin-right: 2%;
+}
+
+li {
+  flex-direction: column;
+  padding-right: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.hamburger {
+  display: block;
+  width: 20px;
+  height: 3px;
+  margin: 5px;
+  background-color: #414248;
+}
+
+#main div {
+  margin: 4% 22%;
+}
+
+#main h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #ec5242;
+}
+
+#about-main h1,
+h2,
+p {
+  padding: 3% 0;
+}
+
+#about-main h1 {
+  font-family: 'Cocogoose', sans-serif;
+  font-weight: 400;
+  color: #ec5242;
+}
+
+.program-cards h2 {
+  font-size: 5px;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  padding: 5% 1%;
+}
+
+.past-summit-card h2 {
+  position: absolute;
+  top: 40px;
+  left: 40%;
+  color: white;
+}
+
+.top-speakers div h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: left;
+  padding: 1% 0;
+}
+
+#about-main h2 {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 55px;
+  font-weight: 800;
+  color: #ec5242;
+}
+
+#main h2 {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 55px;
+  font-weight: 800;
+  color: #ec5242;
+}
+
+#introduction {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #272a31;
+  border: 2px solid rgb(201, 201, 227);
+  padding: 10px 15px;
+}
+
+#main h3 {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #272a31;
+  padding: 15px;
+}
+
+.program-cards p {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  padding-left: 4%;
+}
+
+.past-summit-card p {
+  position: absolute;
+  top: 70px;
+  left: 9%;
+  color: white;
+}
+
+.top-speakers div p {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  padding: 2%;
+}
+
+#main p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #272a31;
+}
+
+#programs {
+  background-color: #262930;
+  background-image: url(images/background/repeat-bg.png);
+  justify-content: center;
+}
+
+#programs h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  padding: 2%;
+}
+
+.solid {
+  width: 20%;
+  height: 0;
+  border: 1px solid #e6342d;
+  margin: 1% 40%;
+}
+
+.program-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px #414248 solid;
+  background: #414248;
+  margin: 3% 2.5%;
+}
+
+.program-cards img {
+  max-width: 40px;
+}
+
+#book-button {
+  color: white;
+  background: #ec5242;
+  border-style: solid;
+  border-color: #ec5242;
+  border-radius: 5px;
+  padding: 10px 25px;
+  margin: 5% 40%;
+}
+
+#speakers h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  padding: 2%;
+}
+
+#speakers {
+  background-color: #f3f6f8;
+}
+
+.top-speakers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.speaker-img {
+  max-height: 150px;
+  max-width: 150px;
+  position: inherit;
+}
+
+.speaker-img2 {
+  max-height: 150px;
+  max-width: 150px;
+  position: inherit;
+}
+
+#more-button {
+  color: #414248;
+  font-weight: 400;
+  background: #f3f6f8;
+  border-style: solid;
+  border-color: #414248;
+  border-radius: 5px;
+  margin: 10% 5%;
+  padding: 20px 15px;
+  width: 90%;
+}
+
+#more-button:hover {
+  color: #ec5242;
+  background: #414248;
+}
+
+/* About */
+#about-main {
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 7%;
+  text-align: center;
+}
+
+#about-main h3 {
+  font-family: 'Lato', sans-serif;
+  padding: 7%;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#about-main #email {
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+#logo-reveal {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  background-color: #fff;
+}
+
+#logo-reveal h1 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 2% 20%;
+}
+
+#logo-reveal p {
+  padding: 5% 12%;
+}
+
+#logo-image {
+  max-width: 250px;
+  max-height: 200px;
+  border: 2px solid #d3d4dc;
+  padding: 2% 7%;
+  border-radius: 10px;
+  margin: 5% 0;
+}
+
+#past-summits {
+  padding-bottom: 7%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(243, 246, 248);
+}
+
+#past-summits h1 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 2% 20%;
+}
+
+#past-summits p {
+  padding: 5% 12%;
+}
+
+.past-summit-card {
+  padding: 2% 0;
+  position: relative;
+}
+
+.past-summit-card img {
+  max-width: 400px;
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+#home-partners {
+  background-color: #414248;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+#home-partners h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 3% 20%;
+  color: #fff;
+}
+
+#partners {
+  background-color: #414248;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+#partners h1 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 3% 20%;
+  color: #fff;
+}
+
+#partner-img {
+  padding: 5% 0;
+}
+
+#partner-img img {
+  width: 15%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+
+#footer-text {
+  text-align: left;
+  padding-top: 8%;
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+/* mobile version section */
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+
+  #social-header {
+    display: none;
+  }
+
+  #header-button {
+    display: none;
+  }
+
+  .menu-button {
+    padding-left: 5%;
+  }
+
+  #see-button {
+    display: none;
+  }
+
+  #home-partners {
+    display: none;
+  }
+
+  #home-footer {
+    display: none;
+  }
+
+  .gone {
+    display: none;
+  }
+
+  #more-introduction {
+    display: none;
+  }
+
+  #more-logo {
+    display: none;
+  }
+
+  #more-footer-text {
+    display: none;
+  }
+
+  .hamb-menu {
+    display: none;
+  }
+
+  .popup-menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .popup-menu ul {
+    display: none;
+    flex-direction: column;
+  }
+
+  .popup-menu.active ul {
+    background-color: #d3d3d3;
+    height: 100vh;
+    display: block;
+  }
+
+  .popup-menu.active .menu-button {
+    background-color: #d3d3d3;
+  }
+
+  .menu-button.active .hamburger:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-button.active .hamburger:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+
+  .menu-button.active .hamburger:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .main-content.active {
+    position: fixed;
+    background-image: url(images/background/about-bg.png);
+    background-size: 100%;
+    background-position: center;
+    opacity: 0.4;
+    width: 100%;
+    filter: blur(12px);
+  }
+
+  .popup-menu ul li a {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+    padding: 10% 20%;
+    color: #272a31;
+    z-index: 1;
+  }
+
+  .popup-menu ul li {
+    overflow-y: hidden;
+  }
+
+  footer div img {
+    padding-left: 10px;
+    max-width: 60px;
+    padding-top: 35px;
+  }
+
+  .program-cards img {
+    max-width: 30px;
+    max-height: 40px;
+  }
+
+  main::after {
+    content: "";
+    background: url(images/background/mobile-bg.png);
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .white-img {
+    display: none;
+  }
+
+  .top-speakers {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+    gap: 5%;
+  }
+
+  .speaker {
+    display: flex;
+    flex-direction: row;
+    padding: 5% 5%;
+    gap: 5%;
+    align-items: inherit;
+    margin-left: 0%;
+  }
+
+  .top-speakers div h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: #ec5242;
+    padding: 8% 0;
+    padding-left: 3%;
+  }
+
+  .past-summit-card img {
+    max-width: 300px;
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+  }
+
+  #partners h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 3% 20%;
+    color: #fff;
+  }
+
+  #partner-img img {
+    width: 15%;
+  }
+}
+
+@media (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .hamb-menu {
+    padding-left: 35%;
+  }
+
+  .hamb-menu ul li a:hover {
+    color: #272a31;
+    font-size: 18px;
+  }
+
+  .popup-menu {
+    display: none;
+  }
+
+  main::after {
+    content: "";
+    background: url(images/background/Website-background.png) no-repeat;
+    background-size: 100%;
+    opacity: 8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+  #main div {
+    padding: 3% 5%;
+  }
+
+  #introduction {
+    margin-right: 25%;
+    border: 2px solid rgb(201, 201, 227);
+  }
+
+  .top-speakers div h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: #ec5242;
+    padding: 2% 0;
+  }
+
+  #main h3 {
+    font-family: 'Cocogoose', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #272a31;
+    padding: 3%;
+  }
+
+  #all-programs {
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .program-cards {
+    display: block;
+    background: #414248;
+    width: 25%;
+    margin: 2% 0.5%;
+    text-align: center;
+  }
+
+  .program-cards p {
+    padding: 15% 5%;
+  }
+
+  #book-button {
+    display: none;
+  }
+
+  #see-button {
+    color: #fff;
+    text-decoration: underline;
+    width: 30%;
+    margin: 8% 35%;
+    background: none;
+    border: none;
+  }
+
+  .pair {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #more-button {
+    display: none;
+  }
+
+  #partner-img {
+    padding: 2% 0;
+  }
+
+  #partner-img img {
+    width: 8%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    gap: 45%;
+  }
+
+  #footer-text {
+    text-align: left;
+    padding-top: 6%;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  #about-main div #introduction {
+    margin-right: 0;
+  }
+
+  #about-main h1 {
+    display: none;
+  }
+
+  .gone {
+    margin-top: 4%;
+    margin-bottom: 5%;
+  }
+
+  #logo-reveal h1 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 2% 20%;
+  }
+
+  #logo-reveal p {
+    padding: 5% 12%;
+  }
+
+  #past-summits {
+    padding-bottom: 7%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+  }
+
+  #past-summits h1 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 2% 20%;
+    color: #272a31;
+  }
+
+  #past-pair {
+    margin: 0 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+  }
+
+  #partners {
+    display: none;
+  }
+
+  #about-footer {
+    background: #414248;
+  }
+
+  .black-img {
+    display: none;
+  }
+
+  #about-footer #footer-text {
+    color: #fff;
+    text-align: left;
+    padding-top: 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  #more-footer-text {
+    display: none;
+  }
+
+  .solid {
+    width: 5%;
+    height: 0;
+    border: 1px solid #e6342d;
+    margin: 1% 47.5%;
+  }
+
+  header {
+    background-color: #fff;
+  }
+
+  .speaker {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    gap: 10px;
+    padding: 20px;
+  }
+}
