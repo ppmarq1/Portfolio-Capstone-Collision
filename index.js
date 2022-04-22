@@ -11,25 +11,25 @@ buttonMenu.addEventListener('click', () => {
 const speakersList = [
   {
     name: 'Deborah Archer',
-    image: 'images/speakers/deborah-archer.avif',
+    image: 'images/speakers/deborah.svg',
     graduate: 'President ACLU',
     experience: 'Deborah is the president of the American Civil Liberties Union (ACLU).',
   },
   {
     name: 'Johanna Faries',
-    image: 'images/speakers/Johanna.avif',
+    image: 'images/speakers/johanna.svg',
     graduate: 'Head of Activision Blizzard',
     experience: 'Johanna is head of Activision Blizzards Call of Dutty franchise',
   },
   {
     name: 'Andrew MacAfee',
-    image: 'images/speakers/andrew.avif',
+    image: 'images/speakers/andrew.svg',
     graduate: 'Principal Research Scientist MII',
     experience: 'Andrew is co-founder and co-director of MIT’s Initiative on the Digital Economy',
   },
   {
     name: 'Michelle Zatlyn',
-    image: 'images/speakers/Michelle.avif',
+    image: 'images/speakers/Michelle.svg',
     graduate: 'Co-founder Cloudflare',
     experience: 'Michelle is co-founder and COO of Cloudflare,one of the world’s largest networks',
   },
